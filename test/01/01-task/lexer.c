@@ -35,3 +35,7 @@ void add_token(TokenKind kind, const char *lexeme, int value){
     token[token_count].lexeme = strdup(lexeme);
     token[token_count].value = value;
 };
+
+
+// ================== LEXER CORE ==================
+void lex_file(){};
